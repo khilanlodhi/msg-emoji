@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgba(255, 255, 255, 0.47);
+}
+
+body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:200vh;
+    width:100vw;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+ 
+#main>h1{
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+}
+
+#main>h1 span{
+    margin: 0px 16px;
+    display: flex;
+    align-items: center;
+}
+#main>h1 span img{
+    rotate: 90deg;
+    height:50px;
+    transition: 0.3s ease;
+}
+
+#endec-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    background-color: rgba(128, 128, 128, 0.16);
+    padding: 10vw;
+    margin: 29px 35px;
+    width: 108vw;
+   
+}
+#endec-div h3{
+    font-size: 4vh;
+    
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    font-weight: 500;
+    padding: 4vh 6vw;
+    cursor: pointer;
+}
+#enc-btn{
+    background-color: rgba(128, 128, 128, 0.582);
+}
+
+#encryption{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+#encryption h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 13px;
+    margin-left:30px;  
+    text-align: left;
+
+}
+
+#encryption textarea{
+    height:75px;
+    width:100%;
+    padding:8px 8px;
+    margin-bottom:10px;
+    font-size: 16px;
+    background-color: rgba(128, 128, 128, 0.162);
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#encryption input{
+    height:75px;
+    width:100%;
+    padding:8px 8px;
+    margin-bottom:10px;
+    font-size: 16px;
+    background-color: rgba(128, 128, 128, 0.162);
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#encryption button{
+    height:75px;
+    width:100%;
+    padding:8px 8px;
+    margin-bottom:10px;
+    font-size: 16px;
+    background-color: rgba(128, 128, 128, 0.162);
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 2px;
+    }
+  button img{
+    height:20px;
+  }
+
+  
+
+  #decryption{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+#decryption h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 13px;
+    margin-left:30px;  
+    text-align: left;
+
+}
+
+#decryption textarea{
+    height:75px;
+    width:100%;
+    padding:8px 8px;
+    margin-bottom:10px;
+    font-size: 16px;
+    background-color: rgba(128, 128, 128, 0.162);
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#decryption input{
+    height:75px;
+    width:100%;
+    padding:8px 8px;
+    margin-bottom:10px;
+    font-size: 16px;
+    background-color: rgba(128, 128, 128, 0.162);
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#decryption button{
+    height:75px;
+    width:100%;
+    padding:8px 8px;
+    margin-bottom:10px;
+    font-size: 16px;
+    background-color: rgba(128, 128, 128, 0.162);
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 2px;
+    }
+  button img{
+    height:20px;
+  }
+
+  #result{
+    height:60px;
+    width:45%;
+    font-size: 16px;
+    border-radius: 8px;
+    padding:20px;
+    border:1px solid black;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color:rgba(128, 128, 128, 0.162);
+    display: none;
+    
+  }
